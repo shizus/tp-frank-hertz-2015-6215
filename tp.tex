@@ -1,0 +1,36 @@
+\documentclass[spanish] {article}
+\usepackage[T1]{fontenc}
+\usepackage{selinput}
+\usepackage{hyperref}
+\SelectInputMappings{%
+  aacute={á},
+  eacute={é},
+  iacute={í},
+  oacute={ó},
+  uacute={ú},
+  ntilde={ñ},
+  Euro={€}
+}
+\usepackage{babel}
+\begin{document}
+\title{Un documento de Prueba}
+\author{Gabriel La Torre}
+\maketitle
+\section{Introducción}
+¡Hola mundo \TeX en español!.
+\section{Una fórmula}
+Una fórmula con \TeX es mejor:
+$$ \frac{\pi}{4} = \int_0^1 \frac{1}{1+x^2} dx $$
+
+
+http://mate.dm.uba.ar/~pdenapo/tutorial-latex/node2.html
+
+\section{Referencias}
+
+\begin{itemize}
+  \item \href{http://mate.dm.uba.ar/~pdenapo/tutorial-latex/node2.html}{Pablo Luis De Nápoli}.
+\end{itemize}
+
+
+
+\end{document}
